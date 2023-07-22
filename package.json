@@ -23,6 +23,7 @@
     "webpack-cil": "^0.0.1-security"
   },
   "dependencies": {
+    "discord.js": "^14.11.0",
     "webpack-cli": "^5.1.4"
   },
   "scripts": {
