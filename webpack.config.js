@@ -6,13 +6,13 @@ module.exports = {
     devtool: false,
     context: __dirname,
     entry: {
-        receiver: path.join(__dirname, "./src/receiver.js"),
-        sender: path.join(__dirname, "./src/sender.js")
-
+        //receiver: path.join(__dirname, "./src/receiver.js"),
+        //sender: path.join(__dirname, "./src/sender.js"),
+        index: path.join(__dirname, "./src/index.ts")
     },
     output: {
         path: path.join(__dirname, "dist"),
-        filename: "[name].js",
+        filename: "index.js",
 
     },
     resolve: {

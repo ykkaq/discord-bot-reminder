@@ -1,9 +1,9 @@
-import { sender } from "./sender.js";
-import { receiver} from "./receiver.js";
+import { doSend } from "./sender";
+import { doReceive } from "./receiver";
 
 declare const global: {
-      [x: string]: unknown;
+    [x: string]: unknown;
 };
 
-global.sender = sender;
-global.receiver = receiver;
+global.doSend = doSend;
+global.doReceive = doReceive;
