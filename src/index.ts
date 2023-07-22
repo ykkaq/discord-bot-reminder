@@ -1,9 +1,9 @@
-import { <>} from "./*";
-import { <>} from "./*";
+import { sender } from "./sender.js";
+import { receiver} from "./receiver.js";
 
 declare const global: {
       [x: string]: unknown;
 };
 
-global.<関数名> = <関数名>;
-global.<関数名> = <関数名>;
+global.sender = sender;
+global.receiver = receiver;

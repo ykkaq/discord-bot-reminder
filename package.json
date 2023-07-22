@@ -25,11 +25,9 @@
   "dependencies": {
     "webpack-cli": "^5.1.4"
   },
-  {
   "scripts": {
     "build": "webpack",
     "deploy": "yarn build && clasp push",
     "lint": "eslint --fix --ext .ts,.js --ignore-path .gitignore ."
-  },
-}
+  }
 }
